@@ -10,6 +10,13 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *numberOfConvertLabel;
+@property (strong, nonatomic) IBOutlet UILabel *numberOfLabel;
+
+@property (strong, nonatomic) IBOutlet UITextField *numberOfEarthsTextField;
+
+- (IBAction)convertToJupitersButtonPressed:(UIButton *)sender;
+- (IBAction)convertToSunsButtonPressed:(UIButton *)sender;
 
 @end
 
